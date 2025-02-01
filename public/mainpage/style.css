@@ -1,0 +1,69 @@
+body {
+    background: linear-gradient(300deg, #3B1E54, #9B7EBD, #E4B1F0);
+    background-size: 180% 180%;
+    animation: gradient-animation 7s ease infinite;
+ }
+
+ @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.album {
+    background: linear-gradient(300deg, #D4BEE4, #FFF6E3, #D4BEE4);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+ }
+
+ @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.cat {
+    border-radius: 5%;
+}
+
+h1 {
+    font-family: "Parisienne", serif;
+}
+
+
+
+.lead {
+    color: #FFF6E3;
+    font-family: "Bodoni Moda", serif;
+}
+
+.card-body {
+    background:#D4BEE4;
+}
+
+.t_title {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    color:#FFF6E3;
+}
+
+.t_text {
+    color:#3B1E54;;
+}
+
+.card-text{
+    color: #3B1E54;
+}
+

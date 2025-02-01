@@ -1,0 +1,41 @@
+body {
+        background: linear-gradient(300deg, #3B1E54, #C68FE6, #CDC1FF);
+        background-size: 180% 180%;
+        animation: gradient-animation 12s ease infinite;
+
+        color: black;
+ }
+ 
+ @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+h1 {
+    font-family: "Parisienne", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+p {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+}
+
+h3 {
+    font-family: "Parisienne", serif;
+    font-optical-sizing: auto;
+}
+
+a {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+}
